@@ -14,13 +14,6 @@ import os
 # 日本語フォントの設定（プラットフォームに応じて適切なフォントを設定）
 def setup_japanese_fonts():
     try:
-        # まずjapanize-matplotlibを試す
-        try:
-            import japanize_matplotlib
-            return True
-        except ImportError:
-            pass
-        
         # システムごとのフォント設定
         os_name = platform.system()
         if os_name == 'Windows':
