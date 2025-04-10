@@ -10,6 +10,7 @@ import time
 import matplotlib as mpl
 import platform
 import os
+import japanize_matplotlib
 
 # 日本語フォントの設定（プラットフォームに応じて適切なフォントを設定）
 def setup_japanese_fonts():
